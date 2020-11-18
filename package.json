@@ -1,0 +1,24 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "appl": "node ./global.js mainChart.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.11.4",
+    "@babel/register": "^7.10.5",
+    "@babel/cli": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "chart.js": "^2.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
